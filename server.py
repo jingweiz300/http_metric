@@ -19,11 +19,11 @@ def get_today():
     return time.strftime('%Y%m%d',time.localtime(time.time()))
 #实例bottle
 app = Bottle()
-#路由/sharlook/<classone>/<classtwo>
-#例如：访问127.0.0.1:9001/sharlook/network/cisco
-#例如：访问127.0.0.1:9001/sharlook/network/hw
-@app.post('/sharlook/:classone/:classtwo')
-def sharlook(classone,classtwo):
+#路由/hell/<classone>/<classtwo>
+#例如：访问127.0.0.1:9001/hell/network/cisco
+#例如：访问127.0.0.1:9001/hell/network/hw
+@app.post('/hell/:classone/:classtwo')
+def hell(classone,classtwo):
     #获取常用请求信息打印
     req_info = {"Content-Type":request.get_header('Content-Type'),"Request":request.environ['bottle.request'],"Body_String":request._get_body_string()}
     logging.debug('RECEIVE ONE REQ:{}'.format(str(req_info)))
@@ -55,4 +55,4 @@ def sharlook(classone,classtwo):
 #启动server
 run(app,host='127.0.0.1',port='1234')
 #测试
-#curl -H "Content-Type:application-XPOST 127.0.0.1:1234/sharlook/CBA/nbalog -d '{"a":1,"b":9,"c":[1,2,"test"],"d":{"e":1}}'
+#curl -H "Content-Type:application-XPOST 127.0.0.1:1234/hell/CBA/nbalog -d '{"a":1,"b":9,"c":[1,2,"test"],"d":{"e":1}}'
