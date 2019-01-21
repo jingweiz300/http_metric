@@ -1,0 +1,62 @@
+[2019/01/21 01:34:07 01]:[{'headers': <bottle.WSGIHeaderDict object at 0x10f0fd9e8>, 'bottle.request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/NBAa/nbalog>}]:   
+[2019/01/21 01:34:57 01]:[{'headers': <bottle.WSGIHeaderDict object at 0x1074c3a20>, 'bottle.request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/NBAa/nbalog>, '_body': <_io.BytesIO object at 0x1074c2eb8>}]:   
+[2019/01/21 01:35:25 01]:[{'headers': <bottle.WSGIHeaderDict object at 0x1024a4978>, 'bottle.request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/NBAa/nbalog>, '_get_body_string': <bound method BaseRequest._get_body_string of <LocalRequest: POST http://127.0.0.1:1234/sharlook/NBAa/nbalog>>}]:   
+[2019/01/21 01:36:31 01]:[{'headers': <bottle.WSGIHeaderDict object at 0x10f87f9e8>, 'bottle.request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/NBAa/nbalog>, '_get_body_string': b'{"a":1,"b":9}'}]:   
+[2019/01/21 01:37:37 01]:[{'headers': <bound method BaseRequest.get_header of <LocalRequest: POST http://127.0.0.1:1234/sharlook/NBAa/nbalog>>, 'bottle.request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/NBAa/nbalog>, '_get_body_string': b'{"a":1,"b":9}'}]:   
+[2019/01/21 01:39:27 01]:[{'headers': <bound method WSGIHeaderDict.raw of <bottle.WSGIHeaderDict object at 0x10f3289e8>>, 'bottle.request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/NBAa/nbalog>, '_get_body_string': b'{"a":1,"b":9}'}]:   
+[2019/01/21 01:42:36 01]:[{'headers': 'application/json', 'bottle.request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/NBAa/nbalog>, '_get_body_string': b'{"a":1,"b":9}'}]:   
+[2019/01/21 01:43:34 01]:[{'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/NBAa/nbalog>, 'Body_String': b'{"a":1,"b":9}'}]:   
+[2019/01/21 01:43:50 01]:[{'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/NBAa/nbalog>, 'Body_String': b'{"a":1,"b":9,"hello":test}'}]:   
+2019/01/21 01:47:55 --{'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/NBAa/nbalog>, 'Body_String': b'{"a":1,"b":9}'}:
+2019/01/21 01:50:23 --{'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/NBAa/nbalog>, 'Body_String': b'{"a":1,"b":9}'}:
+2019/01/21 01:50:23 --RECEIVE ONE ERROR PATH:http://127.0.0.1:1234/sharlook/NBAa/nbalog:
+[2019/01/21 01:51:15 ]  {'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/NBAa/nbalog>, 'Body_String': b'{"a":1,"b":9}'}:
+[2019/01/21 01:51:15 ]  RECEIVE ONE ERROR PATH:http://127.0.0.1:1234/sharlook/NBAa/nbalog:
+2019/01/21 01:52:43  - DEBUG - {'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/NBAa/nbalog>, 'Body_String': b'{"a":1,"b":9}'}
+2019/01/21 01:52:43  - WARNING - RECEIVE ONE ERROR PATH:http://127.0.0.1:1234/sharlook/NBAa/nbalog
+2019/01/21 01:52:53  - DEBUG - {'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/NBAa/nbalog>, 'Body_String': b'{"a":1,"b":9}'}
+2019/01/21 01:52:53  - WARNING - RECEIVE ONE ERROR PATH:http://127.0.0.1:1234/sharlook/NBAa/nbalog
+2019/01/21 01:52:54  - DEBUG - {'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/NBAa/nbalog>, 'Body_String': b'{"a":1,"b":9}'}
+2019/01/21 01:52:54  - WARNING - RECEIVE ONE ERROR PATH:http://127.0.0.1:1234/sharlook/NBAa/nbalog
+2019/01/21 01:52:54  - DEBUG - {'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/NBAa/nbalog>, 'Body_String': b'{"a":1,"b":9}'}
+2019/01/21 01:52:54  - WARNING - RECEIVE ONE ERROR PATH:http://127.0.0.1:1234/sharlook/NBAa/nbalog
+2019/01/21 01:53:02  - DEBUG - {'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/cbsa/nbalog>, 'Body_String': b'{"a":1,"b":9}'}
+2019/01/21 01:53:02  - WARNING - RECEIVE ONE ERROR PATH:http://127.0.0.1:1234/sharlook/cbsa/nbalog
+2019/01/21 01:54:32  - DEBUG - RECEIVE ONE REQ:{'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/cbsa/nbalog>, 'Body_String': b'{"a":1,"b":9}'}
+2019/01/21 01:54:32  - WARNING - RECEIVE ONE ERROR PATH:http://127.0.0.1:1234/sharlook/cbsa/nbalog
+2019/01/21 01:54:32  - DEBUG - RECEIVE ONE REQ:{'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/cbsa/nbalog>, 'Body_String': b'{"a":1,"b":9}'}
+2019/01/21 01:54:32  - WARNING - RECEIVE ONE ERROR PATH:http://127.0.0.1:1234/sharlook/cbsa/nbalog
+2019/01/21 01:55:02  - DEBUG - RECEIVE ONE REQ:{'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/CBA/nbalog>, 'Body_String': b'{"a":1,"b":9}'}
+2019/01/21 01:55:02  - ERROR - [Errno 2] No such file or directory: '/Users/zhoujingwei/PycharmProjects/job3/http_metric/CBA//metric_CBA_nbalog_20190121'
+2019/01/21 01:57:11  - DEBUG - RECEIVE ONE REQ:{'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/CBA/nbalog>, 'Body_String': b'{"a":1,"b":9}'}
+2019/01/21 01:57:11  - DEBUG - File Has Been Writen Succeed In the /Users/zhoujingwei/PycharmProjects/job3/http_metric/CBA//metric_CBA_nbalog_20190121 :{"a": 1, "b": 9}
+2019/01/21 01:57:33  - DEBUG - RECEIVE ONE REQ:{'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/CBA/nbalog>, 'Body_String': b'{"a":1,"b":9,"c":{hello,3,2}}'}
+2019/01/21 01:57:33  - ERROR - Expecting property name enclosed in double quotes: line 1 column 19 (char 18)
+2019/01/21 01:58:10  - DEBUG - RECEIVE ONE REQ:{'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/CBA/nbalog>, 'Body_String': b'{"a":1,"b":9,"c":{hello,3,2}}'}
+2019/01/21 01:58:10  - ERROR - Expecting property name enclosed in double quotes: line 1 column 19 (char 18)
+2019/01/21 01:58:33  - DEBUG - RECEIVE ONE REQ:{'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/CBA/nbalog>, 'Body_String': b'{"a":1,"b":9,"c":{hello,3,2}}'}
+2019/01/21 01:58:33  - ERROR - Expecting property name enclosed in double quotes: line 1 column 19 (char 18)
+2019/01/21 01:59:00  - DEBUG - RECEIVE ONE REQ:{'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/CBA/nbalog>, 'Body_String': b'{"a":1,"b":9,"c":{hello:[3,2,[3,4,1]}}'}
+2019/01/21 01:59:00  - ERROR - Expecting property name enclosed in double quotes: line 1 column 19 (char 18)
+2019/01/21 01:59:19  - DEBUG - RECEIVE ONE REQ:{'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/CBA/nbalog>, 'Body_String': b'{"a":1,"b":9,"c":{hello:[3]}}'}
+2019/01/21 01:59:19  - ERROR - Expecting property name enclosed in double quotes: line 1 column 19 (char 18)
+2019/01/21 01:59:30  - DEBUG - RECEIVE ONE REQ:{'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/CBA/nbalog>, 'Body_String': b'{"a":1,"b":9,"c":{hello:3}}'}
+2019/01/21 01:59:30  - ERROR - Expecting property name enclosed in double quotes: line 1 column 19 (char 18)
+2019/01/21 01:59:42  - DEBUG - RECEIVE ONE REQ:{'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/CBA/nbalog>, 'Body_String': b'{"a":1,"b":9,"c":hello}'}
+2019/01/21 01:59:42  - ERROR - Expecting value: line 1 column 18 (char 17)
+2019/01/21 01:59:57  - DEBUG - RECEIVE ONE REQ:{'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/CBA/nbalog>, 'Body_String': b'{"a":1,"b":9}'}
+2019/01/21 01:59:57  - DEBUG - File Has Been Writen Succeed In the /Users/zhoujingwei/PycharmProjects/job3/http_metric/CBA//metric_CBA_nbalog_20190121 :{"a": 1, "b": 9}
+2019/01/21 02:00:05  - DEBUG - RECEIVE ONE REQ:{'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/CBA/nbalog>, 'Body_String': b'{"a":1,"b":9,"c":6}'}
+2019/01/21 02:00:05  - DEBUG - File Has Been Writen Succeed In the /Users/zhoujingwei/PycharmProjects/job3/http_metric/CBA//metric_CBA_nbalog_20190121 :{"a": 1, "b": 9, "c": 6}
+2019/01/21 02:00:10  - DEBUG - RECEIVE ONE REQ:{'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/CBA/nbalog>, 'Body_String': b'{"a":1,"b":9,"c":"test"}'}
+2019/01/21 02:00:10  - DEBUG - File Has Been Writen Succeed In the /Users/zhoujingwei/PycharmProjects/job3/http_metric/CBA//metric_CBA_nbalog_20190121 :{"a": 1, "b": 9, "c": "test"}
+2019/01/21 02:00:18  - DEBUG - RECEIVE ONE REQ:{'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/CBA/nbalog>, 'Body_String': b'{"a":1,"b":9,"c":[1,2,3]}'}
+2019/01/21 02:00:18  - DEBUG - File Has Been Writen Succeed In the /Users/zhoujingwei/PycharmProjects/job3/http_metric/CBA//metric_CBA_nbalog_20190121 :{"a": 1, "b": 9, "c": [1, 2, 3]}
+2019/01/21 02:00:23  - DEBUG - RECEIVE ONE REQ:{'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/CBA/nbalog>, 'Body_String': b'{"a":1,"b":9,"c":[1,2,"test"]}'}
+2019/01/21 02:00:23  - DEBUG - File Has Been Writen Succeed In the /Users/zhoujingwei/PycharmProjects/job3/http_metric/CBA//metric_CBA_nbalog_20190121 :{"a": 1, "b": 9, "c": [1, 2, "test"]}
+2019/01/21 02:00:32  - DEBUG - RECEIVE ONE REQ:{'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/CBA/nbalog>, 'Body_String': b'{"a":1,"b":9,"c":[1,2,"test"],"d":1}'}
+2019/01/21 02:00:32  - DEBUG - File Has Been Writen Succeed In the /Users/zhoujingwei/PycharmProjects/job3/http_metric/CBA//metric_CBA_nbalog_20190121 :{"a": 1, "b": 9, "c": [1, 2, "test"], "d": 1}
+2019/01/21 02:00:43  - DEBUG - RECEIVE ONE REQ:{'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/CBA/nbalog>, 'Body_String': b'{"a":1,"b":9,"c":[1,2,"test"],"d":{"e":1}}'}
+2019/01/21 02:00:43  - DEBUG - File Has Been Writen Succeed In the /Users/zhoujingwei/PycharmProjects/job3/http_metric/CBA//metric_CBA_nbalog_20190121 :{"a": 1, "b": 9, "c": [1, 2, "test"], "d": {"e": 1}}
+2019/01/21 03:30:43  - DEBUG - RECEIVE ONE REQ:{'Content-Type': 'application/json', 'Request': <LocalRequest: POST http://127.0.0.1:1234/sharlook/CBA/nbalog>, 'Body_String': b'{"a":1,"b":9,"c":[1,2,"test"],"d":{"e":1}}'}
+2019/01/21 03:30:43  - DEBUG - File Has Been Writen Succeed In the /Users/zhoujingwei/PycharmProjects/job3/http_metric/CBA//metric_CBA_nbalog_20190121 :{"a": 1, "b": 9, "c": [1, 2, "test"], "d": {"e": 1}}
